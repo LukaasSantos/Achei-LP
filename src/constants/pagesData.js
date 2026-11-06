@@ -1,52 +1,5 @@
 export const PARCEIROS_LIST = [
   {
-    id: 'devsampa',
-    name: 'DevSampa',
-    category: 'Desenvolvimento Web & Alta Performance',
-    tag: 'Engenharia de Software',
-    logo: '/assets/img/parceiros/StateOn-BrandDevSampa.png',
-    description: 'Especialistas em desenvolvimento de Landing Pages ultra-rápidas, portais corporativos e e-commerces projetados especificamente para maximizar conversões de Google Ads.',
-    website: 'https://devsampa.com.br',
-    email: 'contato@devsampa.com.br',
-    phone: '(11) 98844-3322',
-    location: 'São Paulo - SP • Atendimento Brasil',
-    stats: {
-      projetos: '140+',
-      satisfacao: '99.4%',
-      velocidade: '< 0.8s'
-    },
-    projects: [
-      'Landing Pages modernas com índice 95+ de velocidade no PageSpeed',
-      'Integração avançada com APIs de conversão, RD Station e Webhooks',
-      'Portais institucionais e plataformas SaaS escaláveis'
-    ],
-    portfolio: [
-      {
-        title: 'Landing Page SaaS Fintech Ultra-Rápida',
-        client: 'Fintech de Crédito Corporativo',
-        description: 'Redução drástica no tempo de carregamento de 4.2s para 0.6s. A melhora técnica no índice de qualidade do Google Ads gerou aumento imediato na taxa de conversão.',
-        metrics: '99 PageSpeed • +78% Conversão',
-        tags: ['React', 'Next.js', 'Tailwind', 'Performance']
-      },
-      {
-        title: 'Plataforma E-commerce Headless D2C',
-        client: 'Marca Nacional de Varejo',
-        description: 'Desenvolvimento com checkout otimizado em 1 clique e setup avançado de Google Enhanced Conversions e tags do Server-Side.',
-        metrics: '0.8s LCP • +45% Checkout',
-        tags: ['Headless', 'APIs', 'Enhanced Conversions']
-      },
-      {
-        title: 'Portal Corporativo B2B com Captura Dinâmica',
-        client: 'Grupo de Engenharia Industrial',
-        description: 'Portal institucional moderno com formulários interativos com verificação em duas etapas e integração direta ao CRM corporativo.',
-        metrics: '+110% Leads B2B Qualificados',
-        tags: ['Vite', 'TypeScript', 'Webhooks']
-      }
-    ],
-    whatsappMsg: 'Olá! Gostaria de conversar com a equipe da DevSampa sobre desenvolvimento de Landing Pages e sites.',
-    cta: 'Falar com DevSampa'
-  },
-  {
     id: 'k2k',
     name: 'K2K Agência Digital',
     category: 'Inbound Marketing & Automação de CRM',
@@ -186,53 +139,6 @@ export const PARCEIROS_LIST = [
     ],
     whatsappMsg: 'Olá! Gostaria de falar com a Rainbow sobre produção de vídeos e criativos via Achei.',
     cta: 'Falar com Rainbow'
-  },
-  {
-    id: 'es',
-    name: 'ES Comunicação',
-    category: 'Assessoria de Imprensa & Mídias Sociais',
-    tag: 'Comunicação 360°',
-    logo: '/assets/img/parceiros/StateOn-BrandES.png',
-    description: 'Gestão de presença digital, posicionamento de autoridade em redes sociais corporativas (LinkedIn/Instagram) e assessoria para grandes marcas.',
-    website: 'https://escomunicacao.com.br',
-    email: 'imprensa@escomunicacao.com.br',
-    phone: '(11) 94455-6677',
-    location: 'São Paulo - SP • Rio de Janeiro',
-    stats: {
-      projetos: '110+',
-      satisfacao: '98.5%',
-      velocidade: 'PR Estratégico'
-    },
-    projects: [
-      'Crescimento orgânico e autoridade para perfis executivos',
-      'Gestão editorial de redes sociais conectada ao funil de tráfego',
-      'Relações públicas e presença em portais de notícia'
-    ],
-    portfolio: [
-      {
-        title: 'Posicionamento Executivo no LinkedIn',
-        client: 'CEO de Multinacional de Tecnologia',
-        description: 'Ghostwriting e estratégia de autoridade que transformaram o perfil executivo em referência do setor com engajamento expressivo.',
-        metrics: '500k+ Impressões Mensais',
-        tags: ['LinkedIn', 'Ghostwriting', 'Autoridade']
-      },
-      {
-        title: 'Inserções em Grandes Veículos de Notícia',
-        client: 'AgTech de Rastreabilidade',
-        description: 'Conquista de matérias de capa e matérias no Valor Econômico, Forbes Brasil e Exame gerando autoridade institucional inquestionável.',
-        metrics: '28 Inserções Nacionais',
-        tags: ['Assessoria de Imprensa', 'PR', 'Mídia']
-      },
-      {
-        title: 'Gestão de Presença Digital & Redes Sociais',
-        client: 'Rede de Clínicas de Cirurgia Plástica',
-        description: 'Planejamento editorial integrado aos anúncios de Google Ads da Achei, unindo prova social nas redes com conversão rápida.',
-        metrics: '+140% Crescimento de Seguidores',
-        tags: ['Redes Sociais', 'Copywriting', 'Gestão']
-      }
-    ],
-    whatsappMsg: 'Olá! Tenho interesse nos serviços de comunicação e redes da ES através da Achei.',
-    cta: 'Falar com ES'
   }
 ];
 
