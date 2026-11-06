@@ -232,11 +232,38 @@ export const PartnerModal = ({ partner, isOpen, onClose }) => {
                         <span className="text-[10px] font-mono text-gray-400 bg-white/5 px-2 py-0.5 rounded border border-white/5 truncate max-w-[170px]">
                           {item.client}
                         </span>
-                        <SparklesIcon className="w-3.5 h-3.5 text-[#00AB4F] shrink-0" />
+                        {item.link ? (
+                          <a
+                            href={item.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1 text-[11px] font-semibold text-[#00AB4F] hover:text-[#00c85c] bg-[#00AB4F]/10 hover:bg-[#00AB4F]/20 px-2 py-0.5 rounded-lg border border-[#00AB4F]/30 transition-all duration-300 group/link shrink-0"
+                            title="Acessar projeto online"
+                          >
+                            <span>Visitar</span>
+                            <ArrowTopRightOnSquareIcon className="w-3 h-3 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform" />
+                          </a>
+                        ) : (
+                          <SparklesIcon className="w-3.5 h-3.5 text-[#00AB4F] shrink-0" />
+                        )}
                       </div>
-                      <h4 className="text-sm font-bold text-white leading-snug">
-                        {item.title}
-                      </h4>
+
+                      {item.link ? (
+                        <a
+                          href={item.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-sm font-bold text-white hover:text-[#00AB4F] transition-colors leading-snug flex items-center justify-between gap-1 group/title"
+                        >
+                          <span>{item.title}</span>
+                          <ArrowTopRightOnSquareIcon className="w-3.5 h-3.5 opacity-50 group-hover/title:opacity-100 group-hover/title:text-[#00AB4F] group-hover/title:translate-x-0.5 transition-all shrink-0" />
+                        </a>
+                      ) : (
+                        <h4 className="text-sm font-bold text-white leading-snug">
+                          {item.title}
+                        </h4>
+                      )}
+
                       <p className="text-xs text-gray-300 leading-relaxed font-light">
                         {item.description}
                       </p>
@@ -259,6 +286,21 @@ export const PartnerModal = ({ partner, isOpen, onClose }) => {
                             </span>
                           ))}
                         </div>
+                      )}
+
+                      {item.link && (
+                        <a
+                          href={item.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="mt-2 pt-2 border-t border-white/5 flex items-center justify-between text-xs font-semibold text-[#00AB4F] hover:text-[#00c85c] group/btn transition-colors"
+                        >
+                          <span className="flex items-center gap-1.5">
+                            <GlobeAltIcon className="w-3.5 h-3.5" />
+                            Acessar Projeto
+                          </span>
+                          <ArrowTopRightOnSquareIcon className="w-3.5 h-3.5 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-transform" />
+                        </a>
                       )}
                     </div>
                   </div>

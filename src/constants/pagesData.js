@@ -1,5 +1,55 @@
 export const PARCEIROS_LIST = [
   {
+    id: 'lucasDev',
+    name: 'Lucas - Developer',
+    category: 'Desenvolvimento Web & Alta Performance',
+    tag: 'Engenharia de Software',
+    logo: '/assets/img/parceiros/StateOn-BrandLucas.png',
+    description: 'Desenvolvimento de Landing Pages ultra-rápidas, portais corporativos, aplicativos e e-commerces projetados especificamente para maximizar conversões de Google Ads.',
+    website: 'https://lucasssantos-dev.vercel.app/',
+    email: 'lucas.tas@live.com',
+    phone: '(11) 94357-5014',
+    location: 'São Paulo - SP',
+    stats: {
+      projetos: '+20',
+      satisfacao: '99.7%',
+      velocidade: '+95 Web Core Vitals'
+    },
+    projects: [
+      'Landing Pages de Alta Conversão',
+      'SaaS de gestão e Portais Corporativos',
+      'E-commerce e Aplicativos Mobile'
+    ],
+    portfolio: [
+      {
+        title: 'PortalSystem',
+        client: 'Sistema de Gestão',
+        description: 'Plataforma online para gestão de pequenas e médias empresas com CRM, financeiro, clientes e outros recursos.',
+        metrics: '50+ Usuários Ativos',
+        tags: ['Next.js', 'Laravel', 'PostgreSQL', 'Rest API'],
+        link: 'https://portal-system-alpha.vercel.app/'
+      },
+      {
+        title: 'Obra300',
+        client: 'Empresa de Engenharia',
+        description: 'Plataforma de gestão de obras, divulgação de empresas e prestadores de serviços, e venda de produtos e imóveis.',
+        metrics: 'Mais de 50+ Empresas Cadastradas',
+        tags: ['Next.js', 'Laravel', 'PostgreSQL', 'Rest API'],
+        link: 'https://www.obra300.com.br/'
+      },
+      {
+        title: 'AITA Comercial',
+        client: 'Vinicola Espanhola',
+        description: 'E-commerce de vinhos espanhóis com foco em vendas diretas para consumidores finais e pequenos revendedores. Com carrinho de compras integrado, checkout rápido e seguro, e sistema de gerenciamento de estoque.',
+        metrics: '+250 garrafas vendidas',
+        tags: ['Next.js', 'Laravel', 'PostgreSQL', 'Rest API'],
+        link: 'https://www.aitacomercial.com/'
+      }
+    ],
+    whatsappMsg: 'Olá! Gostaria de conhecer os seus serviços através da Achei.',
+    cta: 'Falar com Lucas - Developer'
+  },
+  {
     id: 'k2k',
     name: 'K2K Agência Digital',
     category: 'Inbound Marketing & Automação de CRM',
